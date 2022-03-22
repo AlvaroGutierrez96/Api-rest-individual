@@ -1,0 +1,30 @@
+{
+    "Leagues": "/api/leagues",
+    "schema": {
+        "name": "string",
+        "country": "string",
+        "teams": "Array teamsID"
+    },
+    "endpoints": [
+        {
+            "Action": "GET",
+            "URL": "/api/teams",
+            "response": [
+                {
+                    
+                        "_id": "62334c29f686c754620a0899",
+                        "name": "Real Madrid",
+                        "players": [
+                            "6230991e04025ecc074a8c0a"
+                        ],
+                        "createdAt": "2022-03-17T14:56:41.799Z",
+                        "updatedAt": "2022-03-17T14:56:41.799Z",
+                        "__v": 0
+                    }
+                        
+                    ]
+                }
+               
+            ]
+        }
+    
